@@ -1,0 +1,23 @@
+input {
+    width: 500px;
+   
+}
+div {
+    text-align: center;
+}
+button {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 15px 75px;
+    color: rgb(0, 0, 0);
+}
+#alerta {
+    margin: 15px;
+    text-decoration: double;
+    color: red;
+}
+button {
+    margin-bottom: 30px;
+}

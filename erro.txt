@@ -1,0 +1,8 @@
+Erro para instalação de pacote
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+Erro para compilação
+    "jsx": "react",
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
