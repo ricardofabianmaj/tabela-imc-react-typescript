@@ -1,8 +1,18 @@
+# At this arquive i did a data base (database.csv) and i did implement it at the web site with an automatizated python logic...
+# First you have to make sure that your browser is fullscreen
+# Second you have to put your browser's name at the line 13
+# So you have to make your that the React aplication is active in https://localhost:3000/
+# So close your browser and get start the python's arquive
+
 import pyautogui
 from time import sleep
 import pandas
 
-pyautogui.click(x=614, y=737)
+pyautogui.press('win')
+sleep(2)
+pyautogui.write('Microsoft Edge') # Put your browser's name here
+sleep(1)
+pyautogui.press('enter')
 sleep(3)
 
 pyautogui.click(x=403, y=53)
@@ -42,11 +52,3 @@ for linha in bd.index:
     pyautogui.write(str(bd.loc[linha, "Gordura_Corporal"]))
     pyautogui.press('tab')
     pyautogui.press('enter')
-
-pyautogui.press('win')
-sleep(1)
-pyautogui.write('Bloco de Notas')
-sleep(2)
-pyautogui.press('enter')
-sleep(1)
-pyautogui.write('feito chefe!')
