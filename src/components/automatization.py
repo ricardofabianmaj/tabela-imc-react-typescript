@@ -21,7 +21,7 @@ pyautogui.press('enter')
 
 sleep(3)
 
-bd = pandas.read_csv('BD.csv')
+bd = pandas.read_csv('database.csv')
 
 for linha in bd.index:
     pyautogui.press('pagedown')
